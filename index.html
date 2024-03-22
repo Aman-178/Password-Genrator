@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" type="image/png" href="profile-pic (9).png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+        <h3>PASSWORD GENERATOR</h3>
+        <div class="show">
+            <div class="input">
+                <input randomly placeholder="Password" class="display" data-passworddisplay>
+                <button class="button1"><i class="fa-solid fa-copy"></i></button>
+            </div>
+        </div>
+        <div class="length">
+            <div id="heading">
+                <h4>Password Length</h4>
+                <div class="number">0</div>
+            </div>
+            <input type="range" min="1" max="20"  id="inputslider" class="slider">
+            
+            <div class="checkbox">
+                <div class="option">
+                    <input type="checkbox" id="first">
+                    <label for="first">Include Uppercase letter</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="second">
+                    <label for="second">Include Lowercase letter</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="third">
+                    <label for="third">Include Numbers</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" id="fourth">
+                    <label for="fourth">Include Symbols</label>
+                </div>
+            </div>
+            <div class="strong">
+                <p>Strength</p>
+                <i id="aman" class="fa-solid fa-circle"></i>
+            </div>
+            <div class="button2">
+                <button id="singh">Generate Password</button>
+            </div>
+        </div>
+        <footer><h5>Created by Aman</h5></footer>
+    </div>
+
+
+
+    
+    <script src="first.js"></script>
+</body>
+</html>

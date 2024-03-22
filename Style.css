@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    background-image: linear-gradient(to bottom left, blue, rgb(230, 10, 153));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+    position: relative;
+    right: 19px;
+}
+
+.display {
+    height: 40px;
+    width: 250px;
+    background-color: rgba(0, 0, 21, 0.527);
+    border: 1px solid rgba(0, 0, 21, 0.527);
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px rgba(245, 4, 165, 0.5);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(247, 176, 9);
+}
+
+.button1 {
+    position: relative;
+    right: 38px;
+    background-color: rgba(0, 0, 21, 0.527);
+}
+
+.length {
+    background-color: rgba(0, 0, 21, 0.527);
+    border-radius: 7px;
+    padding: 20px;
+    height: 250px;
+    width: 300px;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: larger;
+    color: yellow;
+    margin-left: auto;
+}
+
+h4 {
+    margin: 0;
+    color: white;
+}
+
+.checkbox {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    color: blue;
+}
+
+
+
+#singh {
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(233, 14, 244, 0.416);
+    box-shadow: -0px 3px yellowgreen;
+    
+}
+
+p {
+    font-weight: bold;
+    color: white;
+}
+/* Add this CSS to change the color of the slider */
+input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(249, 141, 26); /* Change this color to the desired color */
+}
+
+/* Additional CSS for the slider track */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background:rgb(236, 5, 5); /* Background color for the slider track */
+    outline: none;
+}
+
+/* Optional: Adjusting the appearance of the slider track for other browsers */
+input[type="range"]::-moz-range-track {
+    background: rgba(226, 232, 192, 0.5);
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-track {
+    background: rgba(29, 4, 189, 0.5);
+    border-radius: 5px;
+}
+.strong{
+    display: flex;
+   
+}
+#aman{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    color: white;
+}
